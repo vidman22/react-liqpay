@@ -2,7 +2,6 @@ import babel from 'rollup-plugin-babel'
 import commonjs from 'rollup-plugin-commonjs'
 import external from 'rollup-plugin-peer-deps-external'
 import postcss from 'rollup-plugin-postcss'
-import nodeResolve from '@rollup/plugin-node-resolve'
 import nodePolyfill from 'rollup-plugin-polyfill-node'
 import url from 'rollup-plugin-url'
 import svgr from '@svgr/rollup'
@@ -37,12 +36,9 @@ export default {
     babel({
       exclude: 'node_modules/**'
     }),
-    nodeResolve({
-        browser: true,
-    }),
     nodePolyfill(),
     commonjs(),
     json()
   ],
-  external: builtins
+  external: [...builtins, 'classnames', 'crypto-js']
 }
