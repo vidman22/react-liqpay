@@ -112,8 +112,8 @@ function styleInject(css, ref) {
   }
 }
 
-var css_248z = ".styles_buttonSubmit__3Nole {\n  border: none !important;\n  display: inline-block !important;\n  text-align: center !important;\n  padding: 7px 20px !important;\n  color: #fff !important;\n  font-size: 16px !important;\n  font-weight: 600 !important;\n  font-family: OpenSans, sans-serif;\n  cursor: pointer !important;\n  border-radius: 2px !important;\n  background: rgb(122, 183, 43) !important;\n}\n\n.styles_buttonSubmit__3Nole img {\n  margin-right: 7px !important;\n  vertical-align: middle !important;\n}\n\n.styles_buttonSubmit__3Nole span {\n  vertical-align: middle !important;\n}\n\n.styles_buttonSubmit__3Nole:hover {\n  opacity: 0.5;\n}\n\n.styles_buttonSubmit__3Nole:disabled {\n  opacity: 0.5;\n  cursor: default !important;\n}\n";
-var styleFile = {"buttonSubmit":"styles_buttonSubmit__3Nole"};
+var css_248z = ".styles_buttonSubmit__mm6go {\n  border: none !important;\n  display: inline-block !important;\n  text-align: center !important;\n  padding: 7px 20px !important;\n  color: #fff !important;\n  font-size: 16px !important;\n  font-weight: 600 !important;\n  font-family: OpenSans, sans-serif;\n  cursor: pointer !important;\n  border-radius: 2px !important;\n  background: rgb(122, 183, 43) !important;\n}\n\n.styles_buttonSubmit__mm6go img {\n  margin-right: 7px !important;\n  vertical-align: middle !important;\n}\n\n.styles_buttonSubmit__mm6go span {\n  vertical-align: middle !important;\n}\n\n.styles_buttonSubmit__mm6go:hover {\n  opacity: 0.5;\n}\n\n.styles_buttonSubmit__mm6go:disabled {\n  opacity: 0.5;\n  cursor: default !important;\n}\n";
+var styleFile = {"buttonSubmit":"styles_buttonSubmit__mm6go"};
 styleInject(css_248z);
 
 var _excluded$1 = ["publicKey", "privateKey", "amount", "currency", "description", "orderId", "title", "style", "disabled", "extra"];
