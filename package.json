@@ -46,6 +46,7 @@
     "@rollup/plugin-json": "^4.0.2",
     "@rollup/plugin-url": "^6.1.0",
     "@svgr/rollup": "^6.2.1",
+    "@types/crypto-js": "^4.1.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",

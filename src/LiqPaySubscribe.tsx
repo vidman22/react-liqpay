@@ -5,7 +5,7 @@ import classNames from 'classnames'
 // eslint-disable-next-line camelcase
 import { utf8_to_b64 } from './utils'
 
-import styleFile from './styles.css'
+import './styles.css'
 
 const LiqPaySubscribe = ({
   publicKey,
@@ -52,9 +52,9 @@ const LiqPaySubscribe = ({
       />
       <input type='hidden' name='signature' value={signature} />
       {extra || (
-        <button className={classNames(styleFile.buttonSubmit)} disabled={disabled}>
+        <button className={'buttonSubmit'} disabled={disabled}>
           <img
-            src='https://static.liqpay.ua/buttons/logo-small.png' name='btn_text'
+            src='https://static.liqpay.ua/buttons/logo-small.png' alt='btn_text'
           />
           <span>{title} {amount} {currency}</span>
         </button>
