@@ -1,5 +1,5 @@
 import React from 'react'
-import crypto from 'crypto'
+import crypto from 'crypto-js'
 import PropTypes from 'prop-types'
 import classNames from 'classnames'
 // eslint-disable-next-line camelcase
